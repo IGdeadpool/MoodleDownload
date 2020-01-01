@@ -181,7 +181,7 @@
         </div>
         <div class="content">
             <div class="logo">
-                <img src="logo.png" alt="" width="20%" style="border-radius: 0.8rem;">
+                <img src="logo.jfif" alt="" width="20%" style="border-radius: 0.8rem;">
                 <div class="shadow">{{curLanguage.APPName}}</div>
                 <div class="btnSetup">
                     <button v-on:click='download()'>{{btnDownloadText}}</button>
@@ -199,8 +199,8 @@
             </div>
             <div class="attribute">
                 <div>{{curLanguage.AppTypeText}}: {{curLanguage.AppTypeValue}}</div>
-                <div>{{curLanguage.Size}}: 20M</div>
-                <div>{{curLanguage.Version}}: 1.6.8</div>
+                <div>{{curLanguage.Size}}: 17M</div>
+                <div>{{curLanguage.Version}}: 3.8.0</div>
                 <div>{{curLanguage.Copyright}}: {{curLanguage.CompanyName}}</div>
             </div>
             <div class="introduction">
@@ -280,7 +280,7 @@
                         app.$data.btnDownloadText = app.$data.curLanguage.DownloadText_IOS;
                     }, 2000);
                 } else {
-                    window.location.href = "https://download.moodle.org/desktop/download.php?platform=android";
+                    window.location.href = "https://edininghall.oss-cn-shenzhen.aliyuncs.com/moodle/moodle.apk";
                     setTimeout(function () {
                         app.$data.btnDownloadText = app.$data.curLanguage.DownloadText1;
                     }, 4000);
